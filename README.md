@@ -1,0 +1,36 @@
+# 🎙️ The Empathy Engine — Giving AI a Human Voice
+
+## 🌟 Overview
+This project dynamically modulates synthesized speech to match the **emotion** of input text.
+It bridges text sentiment and vocal expression using Python and Flask.
+
+---
+
+## 🚀 Features
+- Emotion Detection using NLTK VADER (Positive / Negative / Neutral)
+- Voice Modulation via `pyttsx3` + `pydub`
+- Emotion-to-Voice Mapping for rate, pitch, and volume
+- Web UI with real-time emotion + emoji display
+- Extensible: plug in ElevenLabs or Google TTS for premium voices
+
+---
+
+## 🧩 Setup Instructions
+
+```bash
+# 1. Clone repository
+git clone https://github.com/SHAKSHIY/empathy-engine.git
+cd empathy-engine
+
+# 2. Create virtual environment
+python -m venv venv
+venv\Scripts\activate  # Windows
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Download VADER lexicon (only once)
+python -c "import nltk; nltk.download('vader_lexicon')"
+
+# 5. Run the app
+python app.py
