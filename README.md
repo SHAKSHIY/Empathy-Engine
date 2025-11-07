@@ -40,12 +40,5 @@ python app.py
 
 Visit: http://127.0.0.1:5000
 
-## 🎛️ Emotion-to-Voice Mapping
-
-| Emotion | Rate Change | Volume Change | Audio Filter |
-|----------|--------------|----------------|----------------|
-| 😊 **Positive** | Faster (+40%) | Louder (+30%) | Brighter tone |
-| 😔 **Negative** | Slower (-30%) | Softer (-30%) | Low-pass filter |
-| 😐 **Neutral**  | Default | Default | None |
-
 **Author**: Shakshi
+
