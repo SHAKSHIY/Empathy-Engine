@@ -1,5 +1,8 @@
 # 🎙️ The Empathy Engine — Giving AI a Human Voice
 
+<img width="952" height="735" alt="image" src="https://github.com/user-attachments/assets/f1e2b1c1-4471-4844-9856-2ea737432c93" />
+
+
 ## 🌟 Overview
 This project dynamically modulates synthesized speech to match the **emotion** of input text.
 It bridges text sentiment and vocal expression using Python and Flask.
@@ -34,3 +37,4 @@ python -c "import nltk; nltk.download('vader_lexicon')"
 
 # 5. Run the app
 python app.py
+
